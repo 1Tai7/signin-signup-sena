@@ -11,6 +11,7 @@ curl --location 'localhost:4000/api/register' \
      "password": "$2a$05$nLY2It8riku2vwwDIINdgO/XIyPXRg1Gn9LFgnhwKqC4TwcAwEUL2"
 }
 '
+```
 
 ### POST LOGIN
 ```bash
@@ -23,6 +24,7 @@ curl --location 'http://localhost:4000/api/login' \
      "password": "a"
 }
 '
+```
 
 Repositorio GiHub:
 `https://github.com/1Tai7/signin-login-sena`
