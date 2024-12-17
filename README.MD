@@ -12,7 +12,8 @@ curl --location 'localhost:4000/api/register' \
 }
 '
 
-POST LOGIN:
+### POST LOGIN
+```bash
 curl --location 'http://localhost:4000/api/login' \
 --header 'Content-Type: application/json' \
 --header 'Cookie: jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYSIsImlhdCI6MTczNDQ3NTk5MywiZXhwIjoxNzM1MDgwNzkzfQ.wUyq-Dwa-n1y3JSdM1nJCvstr9yOE6JunYNZEuQkT3s' \
